@@ -1,5 +1,6 @@
-# DataLake
-Diseño de un lago de datos con los dataset necesarios para el análisis de los Homicidios en Colombia.
+# Scripts
+Código SQL de las tablas que almacenarán los datos obtenidos en los orígenes.
 
-1. **Sources:** Contiene los orígenes de datos (archivos CSV) utilizados para el análisis.
-2. **Scripts:** Contiene el código SQL de las tablas que almacenarán los datos obtenidos en los orígenes.
+dl_departamentos_create: CREATE TABLE de la estructura de la tabla de Departamentos para importar los datos del origen CSV
+(dl_departamentos.csv).dl_municipios_create: CREATE TABLE de la estructura de la tabla de Municipios para importar los datos del origen CSV (dl_municipios.csv).
+dl_homicidios_create: CREATE TABLE de la estructura de la tabla de Homicidios para importar los datos del origen CSV (dl_homicidios.csv).
